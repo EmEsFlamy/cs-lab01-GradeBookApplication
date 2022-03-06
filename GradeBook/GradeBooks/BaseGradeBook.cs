@@ -39,6 +39,10 @@ namespace GradeBook.GradeBooks
             }
             Students.Remove(student);
         }
+        public GradeBookType Type { get; set; }
+
+        
+
 
         public void AddGrade(string name, double score)
         {
